@@ -1,0 +1,68 @@
+Familiar with fundamentals of C
+Standard library of C++
+
+char,int,float,double
+C89 defined by ANSI
+C99 defines bool
+
+void : type specifier which indicates no type
+
+Derived data types:
+Array
+Structure
+Pointer
+Function
+String - C-Strings are not really  types
+CStrings are basically functiosn in string package
+
+Type modifiers
+short
+long
+signed
+unsigned
+
+C variables can contain digits, letters or underscore
+It can start with an underscore or a letter
+
+Literals
+refer to fixed values of a built-in type
+literals are constant values having co nstant types
+
+Structures
+
+Two ways of declaring structures
+
+struct Complex {
+
+}
+
+Usage: struct Complex x = {};
+
+typedef struct _Books{
+
+}
+
+Books book;
+book.member;
+
+Unions
+Is a special structure that allocates memory  only for the largest data member and holds only one member at a time.
+
+Pointer : is a variable whose value is a memory address
+The type of a pointer is determined by the type of its pointee.
+
+int *ip; //pointer is an integer
+double *dp; //pointer is a double
+float *fp; // pointer is a float
+char *ch; //pointer is a character
+
+using a pointer
+
+int i = 20;
+int *ip;
+ip = &i;
+
+C++ convention
+Any C type header can be used in C++ as well but when you use it, it should be
+prefixed with c. For example the math.h header in C++ is called cmath(as observed)
+in the Square_root.cpp example
